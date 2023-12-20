@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: docker-devfile-sample-python-basic
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/qwan1-tenant/devfile-sample-python-basic/docker-devfile-sample-python-basic@sha256:d6ad010d16f73b60417a83aa1fbcbcc4d74334f2f65bf618acb417abdde3ed2a
         imagePullPolicy: Always
         name: container-image
         ports:
